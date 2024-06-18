@@ -1,4 +1,5 @@
 from scipy.interpolate import CubicSpline
+from numpy import loadtxt
 
 v_kk_1 = np.loadtxt('kk_singlet')
 v_kk_3 = np.loadtxt('kk_triplet')
